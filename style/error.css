@@ -1,0 +1,18 @@
+
+:root {
+    --red : rgb(201, 29, 29);
+}
+
+.error {
+    color: var(--red);
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1rem;
+}
